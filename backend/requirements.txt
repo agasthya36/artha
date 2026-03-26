@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+sentence-transformers
+chromadb
+pyyaml
+requests
+python-multipart
+tqdm
