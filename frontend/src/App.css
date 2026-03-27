@@ -76,10 +76,13 @@ body {
 .title {
   font-size: 64px;
   font-weight: 800;
+  line-height: 1.2;
   letter-spacing: -0.02em;
   margin: 0 0 24px;
+  padding-bottom: 0.1em;
   background: linear-gradient(to bottom, #fff, rgba(255, 255, 255, 0.6));
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -237,22 +240,6 @@ body {
   line-height: 1.6;
 }
 
-.card-footer {
-  margin-top: 24px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 12px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--text-muted);
-  transition: color 0.3s ease;
-}
-
-.result-card:hover .card-footer {
-  color: rgba(255, 255, 255, 0.4);
-}
 
 .error-alert {
   padding: 16px;

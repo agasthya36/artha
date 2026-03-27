@@ -124,11 +124,6 @@ function App() {
                 </div>
                 
                 <p className="definition-text">{res.text}</p>
-
-                <div className="card-footer">
-                  <span>View Entry</span>
-                  <MoveRight size={12} />
-                </div>
               </motion.div>
             ))}
           </AnimatePresence>
