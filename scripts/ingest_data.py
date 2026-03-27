@@ -69,7 +69,8 @@ def parse_yaml_and_ingest():
                         "kannada": kannada_word,
                         "phone": phone,
                         "word_id": word_id,
-                        "def_id": def_id
+                        "def_id": def_id,
+                        "def_index": i
                     }
                 })
                 seen_ids.add(unique_id)
